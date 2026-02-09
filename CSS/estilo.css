@@ -12,6 +12,7 @@
     color: #263B72;
     background-color: #d3d9de;
 }
+
 #cuerporeversa {
     font-family: "Open Sans", sans-serif;
     color: #263B72;
@@ -48,6 +49,7 @@
     margin-bottom: 15px;
     color: #060606;
 }
+
 .text-content strong {
     font-weight: 700;
 }
@@ -61,7 +63,7 @@ button {
     font-size: 10px;
     font-weight: 700;
     background-color: #49b7f1;
-    color:#263B72;
+    color: #263B72;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -86,13 +88,14 @@ button {
     font-family: "Open Sans", sans-serif;
     color: #263B72;
     background-color: #E2EBF3;
+    padding: 60px 20px 20px;
 }
 
 .travelapp {
     text-align: center;
 }
 
-#terceraparte h2{
+#terceraparte h2 {
     font-size: 2.8rem;
     font-weight: 700;
     color: #263B72;
@@ -100,23 +103,111 @@ button {
     margin-bottom: 20px;
 }
 
-#terceraparte p{
+#terceraparte p {
     font-size: 1.1rem;
     color: #0b0b0b;
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
-#terceraparte button{
+#terceraparte button {
     padding: 12px 25px;
     border: none;
     border-radius: 10px;
     font-size: 10px;
     font-weight: 700;
     background-color: #49b7f1;
-    color:#263B72;
+    color: #263B72;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     letter-spacing: 0.5px;
+}
+
+#cuartaparte {
+    font-family: "Open Sans", sans-serif;
+    color: #030303;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e6ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 10%;
+    gap: 60px;
+}
+.left {
+    max-width: 380px;
+}
+
+
+.titulo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 0;
+    
+}
+
+.titulo svg {
+    flex-shrink: 0;
+    margin-left: 0;
+}
+
+.titulo h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    white-space: nowrap;
+    
+}
+
+.imagen5 {
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.imagen5 img {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 120px;
+    
+}
+
+.column h3 {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin-bottom: 12px;
+}
+
+.column ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.column ul li a:hover {
+    color: #49b7f1;
 }
